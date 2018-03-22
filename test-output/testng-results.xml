@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="39" passed="37">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1982521" started-at="2018-03-22T11:17:22Z" finished-at="2018-03-22T11:50:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1982521" started-at="2018-03-22T11:17:22Z" finished-at="2018-03-22T11:50:24Z">
+      <class name="tests.Register">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Register@224edc67]" name="setUp" is-config="true" duration-ms="4390" started-at="2018-03-22T14:17:22Z" finished-at="2018-03-22T14:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="58548" started-at="2018-03-22T14:17:26Z" data-provider="dataRegister" finished-at="2018-03-22T14:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141726-1714766657@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="58680" started-at="2018-03-22T14:18:25Z" data-provider="dataRegister" finished-at="2018-03-22T14:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221417261824201338@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="4037" started-at="2018-03-22T14:19:23Z" data-provider="dataRegister" finished-at="2018-03-22T14:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141726-1444782353@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="4170" started-at="2018-03-22T14:19:27Z" data-provider="dataRegister" finished-at="2018-03-22T14:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="4888" started-at="2018-03-22T14:19:32Z" data-provider="dataRegister" finished-at="2018-03-22T14:19:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141726-276264268@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationForm" duration-ms="4394" started-at="2018-03-22T14:19:36Z" data-provider="dataRegister" finished-at="2018-03-22T14:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221417261731509919@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58738" started-at="2018-03-22T14:19:41Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:20:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1443578854@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="57689" started-at="2018-03-22T14:20:40Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411940245439@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="5372" started-at="2018-03-22T14:21:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941167541142@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59347" started-at="2018-03-22T14:21:43Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ~`!@#$%^&*()_+{}:"<>?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1396756215@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="61005" started-at="2018-03-22T14:22:42Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Petya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1788561292@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59317" started-at="2018-03-22T14:23:43Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941411324936@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58417" started-at="2018-03-22T14:24:42Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:25:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р�РІР°РЅ Р�РІР°РЅРѕРІРёС‡]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-491705652@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="61637" started-at="2018-03-22T14:25:41Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р’Р°СЃСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411026039295@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="57805" started-at="2018-03-22T14:26:42Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р�РІР°РЅ Р’Р°СЃРёР»СЊРµРІРёС‡]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941275553080@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58548" started-at="2018-03-22T14:27:40Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р�РІР°РЅ          Р’Р°СЃРёР»СЊРµРІРёС‡]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941538011211@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="63373" started-at="2018-03-22T14:28:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р›РµРЅР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1020209604@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="55230" started-at="2018-03-22T14:29:42Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р�РІР°РЅ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941447843166@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59839" started-at="2018-03-22T14:30:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РћР»СЊРіР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941856464589@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="61493" started-at="2018-03-22T14:31:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1384102149@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="60611" started-at="2018-03-22T14:32:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РђР»РµРєСЃР°РЅРґСЂ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941657160527@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="60551" started-at="2018-03-22T14:33:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РЎР°С€Р°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941148673957@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58981" started-at="2018-03-22T14:34:40Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:35:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РђР»РµРєСЃР°РЅРґСЂР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1637039579@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58654" started-at="2018-03-22T14:35:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РћР»РµСЃСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-932014644@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59552" started-at="2018-03-22T14:36:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РђРЅРЅР°-РњР°СЂРёСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419412080452963@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="62760" started-at="2018-03-22T14:37:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р•РІР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411494411768@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="61515" started-at="2018-03-22T14:38:40Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:39:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РђРїРїРѕР»РёРЅР°СЂРёСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-618035291@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59135" started-at="2018-03-22T14:39:41Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РђР№РіСѓР»СЊ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411079075522@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58703" started-at="2018-03-22T14:40:40Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Olga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-1894855629@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="58334" started-at="2018-03-22T14:41:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yfnfkmz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941143376194@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="60557" started-at="2018-03-22T14:42:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РќР°С‚Р°Р»РёСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411646661945@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59115" started-at="2018-03-22T14:43:38Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РќР°С‚Р°Р»СЊСЏ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-278626751@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="59901" started-at="2018-03-22T14:44:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РџРµС‚СЂ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-2127623877@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="61990" started-at="2018-03-22T14:45:37Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РџС‘С‚СЂ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201803221419411933445236@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="51614" started-at="2018-03-22T14:46:39Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РљРёСЃРµР»РµРІР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-512286236@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="57018" started-at="2018-03-22T14:47:31Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:48:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РњР°СЂРјРµР»Р°РґРѕРІР° РћР»СЊРіР° РЎРµСЂРіРµРµРІРЅР°]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941746145591@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="50637" started-at="2018-03-22T14:48:28Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[РњР°СЂРёРђ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941178068269@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="FAIL" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="32531" started-at="2018-03-22T14:49:18Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8=8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-2036282231@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: RegisterFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'System info: host: 'JULIA', ip: '192.168.0.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 6500, moz:profile: C:\Users\idilia\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: f9174986-8960-4dfb-89e8-ade74e6ece76*** Element info: {Using=link text, value=Register}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: RegisterFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'System info: host: 'JULIA', ip: '192.168.0.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 6500, moz:profile: C:\Users\idilia\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: f9174986-8960-4dfb-89e8-ade74e6ece76*** Element info: {Using=link text, value=Register}at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)at helper.Helper.makeRegister(Helper.java:42)at tests.Register.testRegistrationName(Register.java:64)at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="FAIL" signature="testRegistrationName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Register@224edc67]" name="testRegistrationName" duration-ms="33273" started-at="2018-03-22T14:49:51Z" data-provider="dataRegisterName" finished-at="2018-03-22T14:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[а®Ёа®ІаЇЌа®Іа®¤аЇЃ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20180322141941-2076751231@mail.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: RegisterFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'System info: host: 'JULIA', ip: '192.168.0.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 6500, moz:profile: C:\Users\idilia\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: f9174986-8960-4dfb-89e8-ade74e6ece76*** Element info: {Using=link text, value=Register}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: RegisterFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'System info: host: 'JULIA', ip: '192.168.0.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 6500, moz:profile: C:\Users\idilia\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: f9174986-8960-4dfb-89e8-ade74e6ece76*** Element info: {Using=link text, value=Register}at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)at helper.Helper.makeRegister(Helper.java:42)at tests.Register.testRegistrationName(Register.java:64)at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Register@224edc67]" name="tearDown" is-config="true" duration-ms="118" started-at="2018-03-22T14:50:24Z" finished-at="2018-03-22T14:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
