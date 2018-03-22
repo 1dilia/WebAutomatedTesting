@@ -25,9 +25,8 @@ public class Map {
 	}
 
 	@Test
-	public void testMap() throws Exception {
-		 driver.get(Propirties.getBaseUrl()); //без регистрации
-//		Helper.logIn(Propirties.getLogin(), Propirties.getPassword(), driver);
+	public void testMapWithoutRegistration() throws Exception {
+		driver.get(Propirties.getBaseUrl()); 
 		driver.findElement(Locators.getButtonContact()).click();
 		driver.findElement(Locators.getFieldMapAddress()).click();
 		driver.findElement(Locators.getFieldMapAddress()).click();
@@ -45,7 +44,29 @@ public class Map {
 		driver.findElement(Locators.getButtonFull()).click();
 		driver.findElement(Locators.getButtonFullBack()).click();
 		driver.findElement(Locators.getButtonHomePage()).click();
-//		driver.findElement(Locators.getButtonLogOut()).click();
+	}
+	
+	@Test
+	public void testMapWithRegistration() throws Exception {
+		Helper.logIn(Propirties.getLogin(), Propirties.getPassword(), driver);
+		driver.findElement(Locators.getButtonContact()).click();
+		driver.findElement(Locators.getFieldMapAddress()).click();
+		driver.findElement(Locators.getFieldMapAddress()).click();
+		driver.findElement(Locators.getFieldMapAddress()).clear();
+		driver.findElement(Locators.getFieldMapAddress()).sendKeys(Propirties.getAddressMap());
+		driver.findElement(Locators.getButtonMapSearch()).click();
+		assertTrue(isElementPresent(Locators.getTitlePopUp()));
+		driver.findElement(Locators.getClosePopUp()).click();
+		driver.findElement(Locators.getButtonZoomIn()).click();
+		driver.findElement(Locators.getButtonZoomOut()).click();
+		driver.findElement(Locators.getButtonList()).click();
+		driver.findElement(Locators.getButtonListSatellite()).click();
+		driver.findElement(Locators.getButtonList()).click();
+		driver.findElement(Locators.getButtonListHybrid()).click();
+		driver.findElement(Locators.getButtonFull()).click();
+		driver.findElement(Locators.getButtonFullBack()).click();
+		driver.findElement(Locators.getButtonHomePage()).click();
+		driver.findElement(Locators.getButtonLogOut()).click();
 	}
 
 	@AfterClass(alwaysRun = true)
